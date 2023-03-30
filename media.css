@@ -221,6 +221,10 @@
         padding-bottom: 100px;
         height: 1042px;
         background-color: transparent;
+        overflow: hidden;
+    }
+    .ghgh{
+        margin-left: -30px;
     }
 }
 @media only screen and (max-width: 600px){
