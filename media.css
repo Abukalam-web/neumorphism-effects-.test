@@ -55,6 +55,12 @@
 }
 @media only screen and (max-width: 771px){
 
+    .section-01{
+        width: 100%;
+        height: 1000px;
+        background-color: #dde1e7;
+        
+    }
     .r1 {
         width: 80%;
         height: 1000px;
@@ -100,22 +106,105 @@
 }
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1230px){
+
+    .name11 {
+        text-align: center;
+        margin-top: 58px;
+        color: grey;
+        font-family: var(--popins);
+        font-size: 18px;
+    }
+
+    .col-a1 {
+        width: 45%;
+        height: 80px;
+        /* border: 1px solid red; */
+        border-radius: 20px;
+        color: rgb(238, 99, 19);
+        color: grey;
+        font-size: 10px;
+        line-height: 10px;
+        overflow: hidden;
+        padding: 4px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .s2r3c1 {
+        width: 327px;
+        height: 163px;
+        /* border: 1px solid red; */
+        margin: auto;
+        box-shadow: var(--neushadow);
+        border-radius: 20px;
+        transition: all 0.4s ease-in-out;
+    }
+    .m0m0{
+        margin-top: 100px;
+    }
+    .section-02 {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 100px;
+        background-color: transparent;
+    }
+    
+}
+@media only screen and (max-width: 1000px){
+    .s2r3c1 {
+        width: 327px;
+        height: 163px;
+        /* border: 1px solid red; */
+        margin: auto;
+        box-shadow: var(--neushadow);
+        margin-bottom: 89px;
+        border-radius: 20px;
+        transition: all 0.4s ease-in-out;
+    }
+    .m0m0{
+        margin-top: 0px;
+    }
+    .s2r3c1 {
+        width: 327px;
+        height: 163px;
+        /* border: 1px solid red; */
+        margin: auto;
+        box-shadow: var(--neushadow);
+        margin-bottom: 89px;
+        border-radius: 20px;
+        transition: all 0.4s ease-in-out;
+    }
+    .button-00 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 18px;
+    }
 
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
 
-
+    .button-00 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 18px;
+    }
 }
-@media only screen and (max-width: 600px){
-
-
+.name11 {
+    text-align: center;
+    margin-top: 58px;
+    color: grey;
+    font-family: var(--popins);
+    font-size: 20px;
 }
-@media only screen and (max-width: 600px){
 
-
+.c2222 {
+    width: 97%;
+    margin: auto;
 }
+
+
 @media only screen and (max-width: 600px){
 
 
