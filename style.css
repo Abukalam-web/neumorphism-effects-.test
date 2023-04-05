@@ -1040,17 +1040,61 @@ button:hover{
     font-size: 8em;
     
 }
-.ghgh{
+.ghgh11{
     padding: 20px;
     font-family: var(--popins);
     font-weight: bold;
     background: linear-gradient(to left, red,black,aqua,purple,yellow);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+
+
+    animation: tungi 5s linear infinite ;
 }
 
+
+@keyframes tungi{
+    0%{
+        background: linear-gradient(to left, 
+        red,black,aqua,purple,yellow);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    
+    
+    }
+
+
+    25%{
+        background: linear-gradient(to left,aqua,purple);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    
+    
+    }
+    50%{
+        background: linear-gradient(to left, purple, blue);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    
+    
+    }
+    75%{
+        background: linear-gradient(to left,#8D3DAF,#E07C24);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    
+    
+    }
+    100%{
+        background: linear-gradient(to left, red,black,aqua,purple,yellow);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    
+    
+    }
+}
 @media only screen and (max-width: 600px){
-    .ghgh {
+    .ghgh11 {
         margin-left: 0px;
         text-align: center;
     }
