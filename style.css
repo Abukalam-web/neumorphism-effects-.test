@@ -1049,7 +1049,14 @@ button:hover{
     -webkit-background-clip: text;
 }
 
+@media only screen and (max-width: 600px){
+    .ghgh {
+        margin-left: 0px;
+        text-align: center;
+    }
+    
 
+}
 
 
 /*  */
