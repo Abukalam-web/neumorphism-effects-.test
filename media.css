@@ -674,11 +674,92 @@ button{
         position: relative;
         margin-top: 100px;
     }
+    .section-details {
+        width: 100%;
+        height: 1131px;
+        background-color: var(--neuback);
+    }
+
+    .hisab-row2 .col-md-3::before {
+        content: "00.00";
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        box-shadow: var(--neushadow),var(--neushadow1);
+        position: absolute;
+        top: -70px;
+        right: 31%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(117, 9, 194);
+        font-size: 27px;
+        color: rgb(238, 99, 19);
+        font-family: var(--fonts001);
+        border-left: 5px dotted rgb(238, 99, 19);
+        backdrop-filter: blur(6px);
+    }
+    .hisab-row3 .col-md-3::before {
+        content: "00.00";
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        box-shadow: var(--neushadow),var(--neushadow1);
+        position: absolute;
+        top: -70px;
+        right: 31%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(117, 9, 194);
+        font-size: 27px;
+        color: rgb(238, 99, 19);
+        font-family: var(--fonts001);
+        border-left: 5px dotted rgb(238, 99, 19);
+        backdrop-filter: blur(6px);
+    }
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
 
-
+    .hisab-row2 .col-md-3::before {
+        content: "00.00";
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        box-shadow: var(--neushadow),var(--neushadow1);
+        position: absolute;
+        top: -70px;
+        right: 26%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(117, 9, 194);
+        font-size: 27px;
+        color: rgb(238, 99, 19);
+        font-family: var(--fonts001);
+        border-left: 5px dotted rgb(238, 99, 19);
+        backdrop-filter: blur(6px);
+    }
+    .hisab-row3 .col-md-3::before {
+        content: "00.00";
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        box-shadow: var(--neushadow),var(--neushadow1);
+        position: absolute;
+        top: -70px;
+        right: 26%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(117, 9, 194);
+        font-size: 27px;
+        color: rgb(238, 99, 19);
+        font-family: var(--fonts001);
+        border-left: 5px dotted rgb(238, 99, 19);
+        backdrop-filter: blur(6px);
+    }
 }
 @media only screen and (max-width: 600px){
 
