@@ -992,8 +992,68 @@ button:hover{
     backdrop-filter: blur(6px);
     
 }
-.hisab-row3 .col-md-3::before{
-    content: "00.00";
+.hisab-row3 .col-md-3:nth-child(1)::before{
+    content: "36.20";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: var(--neushadow),var(--neushadow1);
+    position: absolute;
+    top: -70px;
+    right: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 9, 194);
+    font-size: 27px;
+    color: rgb(238, 99, 19);
+    font-family: var(--fonts001);
+    border-left: 5px dotted rgb(238, 99, 19);
+    backdrop-filter: blur(6px);
+    
+}
+.hisab-row3 .col-md-3:nth-child(2)::before{
+    content: "125";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: var(--neushadow),var(--neushadow1);
+    position: absolute;
+    top: -70px;
+    right: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 9, 194);
+    font-size: 27px;
+    color: rgb(238, 99, 19);
+    font-family: var(--fonts001);
+    border-left: 5px dotted rgb(238, 99, 19);
+    backdrop-filter: blur(6px);
+    
+}
+.hisab-row3 .col-md-3:nth-child(3)::before{
+    content: "38.00";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: var(--neushadow),var(--neushadow1);
+    position: absolute;
+    top: -70px;
+    right: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 9, 194);
+    font-size: 27px;
+    color: rgb(238, 99, 19);
+    font-family: var(--fonts001);
+    border-left: 5px dotted rgb(238, 99, 19);
+    backdrop-filter: blur(6px);
+    
+}
+.hisab-row3 .col-md-3:nth-child(4)::before{
+    content: "66.00";
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -1013,6 +1073,87 @@ button:hover{
     
 }
 
+.hisab-row2 .col-md-3:nth-child(1)::before{
+    content: "17822";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: var(--neushadow),var(--neushadow1);
+    position: absolute;
+    top: -70px;
+    right: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 9, 194);
+    font-size: 27px;
+    color: rgb(238, 99, 19);
+    font-family: var(--fonts001);
+    border-left: 5px dotted rgb(238, 99, 19);
+    backdrop-filter: blur(6px);
+    
+}
+.hisab-row2 .col-md-3:nth-child(2)::before{
+    content: "16379";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: var(--neushadow),var(--neushadow1);
+    position: absolute;
+    top: -70px;
+    right: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 9, 194);
+    font-size: 27px;
+    color: rgb(238, 99, 19);
+    font-family: var(--fonts001);
+    border-left: 5px dotted rgb(238, 99, 19);
+    backdrop-filter: blur(6px);
+    
+}
+
+.hisab-row2 .col-md-3:nth-child(3)::before{
+    content: "452.5";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: var(--neushadow),var(--neushadow1);
+    position: absolute;
+    top: -70px;
+    right: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 9, 194);
+    font-size: 27px;
+    color: rgb(238, 99, 19);
+    font-family: var(--fonts001);
+    border-left: 5px dotted rgb(238, 99, 19);
+    backdrop-filter: blur(6px);
+    
+}
+.hisab-row2 .col-md-3:nth-child(4)::before{
+    content: "1443";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: var(--neushadow),var(--neushadow1);
+    position: absolute;
+    top: -70px;
+    right: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 9, 194);
+    font-size: 27px;
+    color: rgb(238, 99, 19);
+    font-family: var(--fonts001);
+    border-left: 5px dotted rgb(238, 99, 19);
+    backdrop-filter: blur(6px);
+    
+}
 .text-01 {
     width: 100%;
     height: 45px;
@@ -1059,6 +1200,7 @@ button:hover{
         red,black,aqua,purple,yellow);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+       
     
     
     }
@@ -1068,6 +1210,7 @@ button:hover{
         background: linear-gradient(to left,aqua,purple);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+       
     
     
     }
@@ -1075,6 +1218,7 @@ button:hover{
         background: linear-gradient(to left, purple, blue);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+       
     
     
     }
@@ -1084,11 +1228,13 @@ button:hover{
         -webkit-background-clip: text;
     
     
+    
     }
     100%{
         background: linear-gradient(to left, red,black,aqua,purple,yellow);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+      
     
     
     }
